@@ -19,6 +19,9 @@ const App = () => {
           <Weather unit="F" lat={latitude} lon={longitude} appid={API_KEY} />
         )}
         {!hasLocationData && <h1>Please allow location access</h1>}
+
+
+        
       </div>
     </div>
   );
